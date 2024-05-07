@@ -34,6 +34,11 @@ private:
 public: 
 	static CMainApp* Create();
 	virtual void Free() override;
+
+private:
+	int i = 0;
+	int j = 0;
+	int z = 0;
 };
 
 END
