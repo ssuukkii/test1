@@ -25,6 +25,7 @@ private:
 	LPDIRECT3DDEVICE9			m_pGraphic_Device = { nullptr };	
 
 private:
+	int Add();
 	HRESULT SetUp_DefaultState();
 	HRESULT Open_Level(LEVELID eLevelID);
 
